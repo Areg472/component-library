@@ -39,6 +39,11 @@ export default function RootLayout({
                 Doc Sidebar
               </div>
             </DocSidebarItem>
+            <DocSidebarItem href="/input">
+              <div className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded cursor-pointer">
+                Input
+              </div>
+            </DocSidebarItem>
           </DocSidebar>
 
           <main className="flex-1 p-8 ml-80 overflow-y-auto">{children}</main>

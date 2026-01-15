@@ -58,7 +58,7 @@ export function CodePreview({ children, code, title }: CodePreviewProps) {
           >
             Copy
           </button>
-          <pre className="p-6 bg-gray-900 text-gray-100 overflow-x-auto whitespace-pre-wrap break-words">
+          <pre className="p-6 bg-gray-900 text-gray-100 overflow-x-auto whitespace-pre-wrap wrap-break-words">
             <code className="text-sm">{code}</code>
           </pre>
         </div>
