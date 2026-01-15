@@ -29,14 +29,14 @@ export default function RootLayout({
                 Home
               </div>
             </DocSidebarItem>
-            <DocSidebarItem href="/doc-sidebar">
-              <div className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded cursor-pointer">
-                Doc Sidebar
-              </div>
-            </DocSidebarItem>
             <DocSidebarItem href="/button">
               <div className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded cursor-pointer">
                 Button
+              </div>
+            </DocSidebarItem>
+            <DocSidebarItem href="/doc-sidebar">
+              <div className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded cursor-pointer">
+                Doc Sidebar
               </div>
             </DocSidebarItem>
           </DocSidebar>
