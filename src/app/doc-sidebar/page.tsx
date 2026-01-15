@@ -1,5 +1,3 @@
-"use client";
-
 import {
   DocSidebar,
   DocSidebarGroup,
@@ -7,6 +5,14 @@ import {
   DocSidebarItem,
 } from "@/components/DocSidebar";
 import { CodePreview } from "@/components/CodePreview";
+import { CopySourceButton } from "@/components/CopySourceButton";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Component Library - DocSidebar",
+  description:
+    "A flexible and customizable sidebar component perfect for documentation sites.",
+};
 
 export default function DocSidebarPage() {
   const componentSource = `"use client";
@@ -95,9 +101,6 @@ export function DocSidebarHeading({
   return <h4 className={className}>{text}</h4>;
 }`;
 
-  const copyComponentSource = () => {
-    navigator.clipboard.writeText(componentSource);
-  };
   const basicExample = `import {
   DocSidebar,
   DocSidebarHeading,
@@ -150,12 +153,7 @@ export default function Example() {
         sites. Features collapsible groups, headings, and navigation items.
       </p>
 
-      <button
-        onClick={copyComponentSource}
-        className="cursor-pointer mb-8 px-4 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
-      >
-        Copy Component Source Code
-      </button>
+      <CopySourceButton sourceCode={componentSource} className="mb-8" />
 
       <CodePreview title="Documentation Sidebar Example" code={basicExample}>
         <DocSidebar className="bg-gray-900 w-80 p-4 flex flex-col gap-2">
