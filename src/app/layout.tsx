@@ -1,11 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import {
-  DocSidebar,
-  DocSidebarHeading,
-  DocSidebarItem,
-  DocSidebarGroup,
-} from "@/components/DocSidebar";
+import { DocSidebar, DocSidebarItem } from "@/components/DocSidebar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +32,11 @@ export default function RootLayout({
             <DocSidebarItem href="/doc-sidebar">
               <div className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded cursor-pointer">
                 Doc Sidebar
+              </div>
+            </DocSidebarItem>
+            <DocSidebarItem href="/button">
+              <div className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded cursor-pointer">
+                Button
               </div>
             </DocSidebarItem>
           </DocSidebar>
