@@ -9,7 +9,7 @@ import { CopySourceButton } from "@/components/CopySourceButton";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Component Library - DocSidebar",
+  title: "Areg's Component Library - DocSidebar",
   description:
     "A flexible and customizable sidebar component perfect for documentation sites.",
 };
