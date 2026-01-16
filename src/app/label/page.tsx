@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "A customizable label with custom classnames and onChange functionality.",
 };
 
-export default function CheckboxPage() {
+export default function LabelPage() {
   const componentSource = `export function Label({
     className,
     label,
@@ -39,7 +39,7 @@ export default function Example() {
 
       <CopySourceButton sourceCode={componentSource} className="mb-8" />
 
-      <CodePreview title="Checkbox Example" code={basicExample}>
+      <CodePreview title="Label Example" code={basicExample}>
         <Label className="text-black" label="A serious title" />
       </CodePreview>
 
