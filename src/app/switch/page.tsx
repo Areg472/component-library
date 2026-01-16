@@ -47,14 +47,15 @@ export default function Example() {
 
   return (
     <div className="max-w-5xl">
-      <h1 className="text-4xl font-bold text-gray-900 mb-4">Label</h1>
+      <h1 className="text-4xl font-bold text-gray-900 mb-4">Switch</h1>
       <p className="text-lg text-gray-600 mb-4">
-        A customizable label component with support for custom classnames.
+        A customizable switch component with custom classnames, checked, and
+        onChange functionality.
       </p>
 
       <CopySourceButton sourceCode={componentSource} className="mb-8" />
 
-      <CodePreview title="Label Example" code={basicExample}>
+      <CodePreview title="Switch Example" code={basicExample}>
         <Switch className="bg-gray-200 peer-checked:bg-blue-600 after:bg-white after:border-gray-300" />
       </CodePreview>
 
