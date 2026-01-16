@@ -7,7 +7,7 @@ import { Label } from "@/components/Label";
 export const metadata: Metadata = {
   title: "Areg's Component Library - Checkbox",
   description:
-    "A customizable checkbox with custom classnames and onChange functionality.",
+    "A customizable checkbox with custom classnames, value, and onChange functionality.",
 };
 
 export default function CheckboxPage() {
