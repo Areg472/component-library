@@ -35,7 +35,6 @@ export default function Example() {
   return (
   <Textarea className="text-black w-52 h-36 border-black border-2 min-h-10 max-h-52" />
   );
-}
 }`;
 
   return (
