@@ -34,6 +34,11 @@ export default function RootLayout({
                 Button
               </div>
             </DocSidebarItem>
+            <DocSidebarItem href="/checkbox">
+              <div className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded cursor-pointer">
+                Checkbox
+              </div>
+            </DocSidebarItem>
             <DocSidebarItem href="/doc-sidebar">
               <div className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded cursor-pointer">
                 Doc Sidebar
@@ -42,6 +47,11 @@ export default function RootLayout({
             <DocSidebarItem href="/input">
               <div className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded cursor-pointer">
                 Input
+              </div>
+            </DocSidebarItem>
+            <DocSidebarItem href="/label">
+              <div className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded cursor-pointer">
+                Label
               </div>
             </DocSidebarItem>
           </DocSidebar>
