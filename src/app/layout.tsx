@@ -54,6 +54,11 @@ export default function RootLayout({
                 Label
               </div>
             </DocSidebarItem>
+            <DocSidebarItem href="/select">
+              <div className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded cursor-pointer">
+                Select
+              </div>
+            </DocSidebarItem>
             <DocSidebarItem href="/switch">
               <div className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded cursor-pointer">
                 Switch
