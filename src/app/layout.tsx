@@ -44,6 +44,11 @@ export default function RootLayout({
                 Checkbox
               </div>
             </DocSidebarItem>
+            <DocSidebarItem href="/currency-converter">
+              <div className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded cursor-pointer">
+                Currency Converter
+              </div>
+            </DocSidebarItem>
             <DocSidebarItem href="/doc-sidebar">
               <div className="px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded cursor-pointer">
                 Doc Sidebar

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "A customizable textarea component with support for custom classnames, onChange, and placeholder.",
 };
 
-export default function LabelPage() {
+export default function TextareaPage() {
   const componentSource = `export function Textarea({
     className,
     placeholder,
