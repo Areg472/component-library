@@ -195,7 +195,7 @@ export default function Example() {
             </h3>
             <p className="text-gray-700 mb-2">
               You must include an attribution when using this component like
-              this:
+              this(unless you use your API key):
             </p>
             <div className="bg-white rounded p-3 border border-gray-300">
               <code className="text-sm text-gray-800">
